@@ -65,7 +65,7 @@ The execution of Postman tests using Microcks follows this flow:
 Here is another example of such a generic script that validates the received JSON content:
 
 <div align="center">
-![postman script validation](/images/documentation/postman-script-validation.png)
+<img src="/images/documentation/postman-script-validation.png" alt="postman script validation" />
 </div>
 
 This script validates that all the JSON `order` objects returned in response all have the `status` that is requested using the query parameter `status` value. Otherwise, a `Valid response` assertion failure is thrown and stored into the tests array.

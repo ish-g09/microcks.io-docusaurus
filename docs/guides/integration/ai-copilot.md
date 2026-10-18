@@ -43,7 +43,7 @@ When `openai` is the chosen implementation for the AI Copilot, you'll have acces
 AI Copilot can be enabled via the [Microcks Docker Desktop Extension](/documentation/guides/installation/docker-desktop-extension/) with minimal customization capabilities. Just access the **Settings** panel from the extension main page and then tick the **Enable AI Assistance** checkbox like below. You'll also have to paste your OpenAI API key in the input field, as illustrated in the capture below:
 
 <div align="center">
-![ai copilot settings dde](/images/documentation/ai-copilot-settings-dde.png)
+<img src="/images/documentation/ai-copilot-settings-dde.png" alt="ai copilot settings dde" />
 <br/><br/>
 </div>
 

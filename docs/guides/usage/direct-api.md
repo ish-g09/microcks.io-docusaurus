@@ -92,7 +92,7 @@ Now, just hitting the `Resources` button just next to `Operations` section, you 
 
 <div align="center">
 <br/>
-![direct resources](/images/documentation/direct-resources.png)
+<img src="/images/documentation/direct-resources.png" alt="direct resources" />
 <br/><br/>
 </div>
 

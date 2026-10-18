@@ -107,7 +107,7 @@ You can now start organizing and creating requests that are matching with the Gr
 > 💡 If you have imported or define you GraphQL Schema API into Postman, you can also directly create a Collection from it. In that case, Postman will auto-organize content using the `/queries` and `/mutations` folders like below. This is convenient but not required by Microcks.
 
 <div align="center">
-![graphql postman operations](/images/documentation/graphql-postman-operations.png)
+<img src="/images/documentation/graphql-postman-operations.png" alt="graphql postman operations" />
 </div>
 
 The next step is now to create a bunch of examples for each of the requests/operations of your Collection as explained by the [Postman documentation](https://learning.postman.com/docs/sending-requests/response-data/examples). You'll give each example a meaningful name regarding the use-case it is supposed to represent. Example url must also match the name of the GraphQL operation method; here we have a simple `{{url}}` because the url at the upper request level but this one must have the `http://allFilms` value.

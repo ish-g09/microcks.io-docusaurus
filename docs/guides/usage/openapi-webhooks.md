@@ -165,7 +165,7 @@ listening on port 3000
 Now, back to the Microcks UI, let's use the new **Manage Webhooks** dialog to register a new webhook subscriber. Hit the **+ Create** button and in the simple form behind the list (empty for now), enter the target URL, the desired frequency, the expiration delay and the errors threshold. The above values are the default one. The hit the **+ Add** button to submit the form values.
 
 <div align="center">
-![webhooks ui registration](/images/documentation/webhooks-ui-registration.png)
+<img src="/images/documentation/webhooks-ui-registration.png" alt="webhooks ui registration" />
 </div>
 
 Now, let quickly switch to the terminal where you started the Http server, wait for about 6 seconds and you should get the following output:

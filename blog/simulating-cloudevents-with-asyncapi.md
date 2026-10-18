@@ -11,7 +11,7 @@ description: 'TL;DR: CloudEvents and AsyncAPI are complementary specifications t
 > TL;DR: [CloudEvents](https://cloudevents.io/) and [AsyncAPI](https://asyncapi.com/) are complementary specifications that help define your [Event Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture). [Microcks](https://microcks.io/) allows simulation of CloudEvent to speed-up and ensure autonomy of development teams.
 
 <figure class="tc center w-70">
-![simulating cloudevents with asyncapi](/images/blog/simulating-cloudevents-with-asyncapi.png)
+<img src="/images/blog/simulating-cloudevents-with-asyncapi.png" alt="simulating cloudevents with asyncapi" />
 </figure>
 
 The rise of Event Driven Architecture (EDA) is a necessary evolution step towards cloud-native applications. Events are the ultimate weapon to decouple your microservices within your architecture. They are bringing great benefits like space and time decoupling, better resiliency and elasticity.

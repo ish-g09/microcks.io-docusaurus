@@ -776,3 +776,8 @@ main .theme-doc-markdown a[class*='cardContainer']:not(.button) {
 .theme-doc-sidebar-container {
   order: -1;
 }
+
+/* Announcement bar and navbar follow main in the DOM (see src/theme/Layout); keep them on top */
+#__docusaurus > .skipToContent_fXgn, #__docusaurus > [class*='skipToContent'] { order: -3; }
+#__docusaurus > .theme-announcement-bar { order: -2; }
+#__docusaurus > .navbar { order: -1; }

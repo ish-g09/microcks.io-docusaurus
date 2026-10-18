@@ -17,7 +17,7 @@ In this guide, you'll learn how to directly connect Microcks to your Postman Col
 In order to connect to your Postman Workspace, you'll need an API Access Key so that Microcks will be able to authenticate while fetching your Collection. In order to do that, you'll need to generate an API Key from Postman Workspace as illustrated below:
 
 <div align="center">
-![postman api keys](/images/documentation/postman-api-keys.png)
+<img src="/images/documentation/postman-api-keys.png" alt="postman api keys" />
 <br/><br/>
 </div>
 
@@ -26,7 +26,7 @@ This API Key must then be saved as an authentication [Secret in Microcks](/docum
 As an administrator, create a new Secret using this template and replace the token with your own value:
 
 <div align="center">
-![postman api secret](/images/documentation/postman-api-secret.png)
+<img src="/images/documentation/postman-api-secret.png" alt="postman api secret" />
 <br/><br/>
 </div>
 

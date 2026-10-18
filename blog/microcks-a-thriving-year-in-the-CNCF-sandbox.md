@@ -13,7 +13,7 @@ In the **ever-evolving landscape** of **open-source software**, achieving **reco
 <!-- truncate -->
 
 <p style="text-align: center;">
-![Microcks: A Thriving year in the CNCF Sandbox and Its Transformative Impacts](/images/blog/microcks-contributors.png)
+<img src="/images/blog/microcks-contributors.png" alt="Microcks: A Thriving year in the CNCF Sandbox and Its Transformative Impacts" />
     <em><a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/" target="_blank">KubeCon EU 2024</a> at the Microcks Project Pavilion booth, showcasing core contributors from Red Hat (<a href="https://www.linkedin.com/in/hugoguerrero/" target="_blank">Hugo Guerrero</a>), Google (<a href="https://www.linkedin.com/in/julienbreux/" target="_blank">Julien Breux</a>) and Microcks core maintainers (<a href="https://www.linkedin.com/in/laurentbroudoux/" target="_blank">Laurent Broudoux</a> & <a href="https://www.linkedin.com/in/yacinekheddache/" target="_blank">Yacine Kheddache</a>).</em>
 </p>
 

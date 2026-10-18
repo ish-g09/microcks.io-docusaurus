@@ -29,7 +29,7 @@ The purpose of Microcks tests is precisely to check that the **Interaction Contr
 In order to help you get confidence in your implementations, we developed the **Conformance index** and **Conformance score** metrics that you can see on the top right of each API | Service details page:
 
 <br/>
-![test conformance](/images/documentation/test-conformance.png)
+<img src="/images/documentation/test-conformance.png" alt="test conformance" />
 <br/>
 
 The **Conformance index** is a kind of grade that estimates how your API contract is actually covered by the samples you've attached to it. We compute this index based on the number of samples you've got for each operation, the complexity of the dispatching rules of these operations and so on... It represents the maximum possible conformance score you may achieve if all your tests are successful.
