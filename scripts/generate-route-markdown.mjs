@@ -15,8 +15,24 @@ function walk(dir, fn) {
   }
 }
 
-function clean(body) {
-  return body
+const DIRECTIVE = `> For AI agents: the complete documentation index is available at ${SITE}/llms.txt and the full documentation bundle at ${SITE}/llms-full.txt.`;
+
+// Resolve path-relative links/images against the page URL (browser semantics) so the twin is portable; skips code fences
+function absolutize(body, route) {
+  const base = new URL(`${route.replace(/\/?$/, '/')}`, `${SITE}/`);
+  let fenced = false;
+  return body.split('\n').map(line => {
+    if (/^\s*(```|~~~)/.test(line)) fenced = !fenced;
+    if (fenced) return line;
+    return line.replace(/(!?\[[^\]]*\]\()(?!(?:[a-z][a-z0-9+.-]*:|#|\/|<))([^)\s]+)/gi, (_, pre, url) => {
+      const u = new URL(url, base);
+      return `${pre}${u.href}`;
+    });
+  }).join('\n');
+}
+
+function clean(body, route) {
+  return absolutize(body, route)
     .replace(/^import .*$/gm, '')
     .replace(/<!--\s*truncate\s*-->/g, '')
     .replace(/<ApiSpec[^>]*url="([^"]+)"[^>]*\/>/g, (_, u) => `[API specification](${u})`)
@@ -28,8 +44,8 @@ function clean(body) {
 function emit(route, data, body) {
   const file = path.join(OUT, `${route.replace(/^\/|\/$/g, '') || 'index'}.md`);
   fs.mkdirSync(path.dirname(file), {recursive: true});
-  const title = data.title ? `# ${data.title}\n\n` : '';
-  fs.writeFileSync(file, `${title}${clean(body)}\n`);
+  const title = data.title ? `# ${data.title}\n\n${DIRECTIVE}\n\n` : `${DIRECTIVE}\n\n`;
+  fs.writeFileSync(file, `${title}${clean(body, route)}\n`);
 }
 
 let count = 0;

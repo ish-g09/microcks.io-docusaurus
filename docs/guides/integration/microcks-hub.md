@@ -1,12 +1,9 @@
 ---
-description: 'draft: false title: "Integrating with Microcks Hub" date: 2024-04-30 publishdate: 2024-04-30 lastmod: 2025-08-24 weight: 2 ---'
----
-draft: false
 title: "Integrating with Microcks Hub"
-date: 2024-04-30
-publishdate: 2024-04-30
-lastmod: 2025-08-24
-weight: 2
+sidebar_position: 2
+last_update:
+  date: '2025-08-24'
+description: Microcks Hub is a community hub and free marketplace where API producers publish ready-to-use API mocks and test suites for Microcks.
 ---
 
 ## Overview

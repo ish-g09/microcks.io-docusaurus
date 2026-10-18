@@ -15,7 +15,7 @@ const config = {
   projectName: 'microcks.io',
 
   // Cascade layers are flattened by the faster toolchain and make Infima outrank custom.css; keep them off.
-  future: {faster: true, v4: {removeLegacyPostBuildHeadAttribute: true, useCssCascadeLayers: false}},
+  future: {faster: {swcJsLoader: true, swcJsMinimizer: true, swcHtmlMinimizer: false, lightningCssMinimizer: true, rspackBundler: true, mdxCrossCompilerCache: true, rspackPersistentCache: true, ssgWorkerThreads: true}, v4: {removeLegacyPostBuildHeadAttribute: true, useCssCascadeLayers: false}},
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
 

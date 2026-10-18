@@ -33,6 +33,18 @@ if (fs.existsSync(llmsPath)) {
   if (long.length) errors.push(`${long.length} llms.txt entries have overly long descriptions`);
 }
 
+const walkMd = d => fs.readdirSync(d, {withFileTypes: true}).flatMap(e => {
+  const p = path.join(d, e.name);
+  return e.isDirectory() ? walkMd(p) : p.endsWith('.md') ? [p] : [];
+});
+for (const f of walkMd(BUILD)) {
+  const md = fs.readFileSync(f, 'utf8');
+  const rel = path.relative(BUILD, f);
+  if (!/^# .*\n\n> For AI agents:/.test(md)) errors.push(`${rel}: missing AI-agent directive after H1`);
+  const body = md.replace(/^(```|~~~)[\s\S]*?^\1/gm, '');
+  if (/!?\[[^\]]*\]\((?![a-z][a-z0-9+.-]*:|#|<)[^)]/i.test(body)) errors.push(`${rel}: non-absolute link`);
+}
+
 if (errors.length) {
   console.error(`validate-machine-content failed:\n- ${errors.join('\n- ')}`);
   process.exit(1);
