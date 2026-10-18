@@ -24,7 +24,7 @@ Docusaurus 3 site for microcks.io, deployed on Netlify.
 - The accent blue `#46aaf3` and white-on-blue pairs fail WCAG contrast; kept deliberately for parity with the live site.
 
 ## Netlify
-- `netlify.toml`, `static/_redirects`, `static/_headers`, and the edge function `netlify/edge-functions/content-negotiation.js` (serves Markdown for `Accept: text/markdown`).
+- `netlify.toml`, `static/_redirects`, `static/_headers`, and the edge function `netlify/edge-functions/content-negotiation.js` (serves Markdown for `Accept: text/markdown`). `noindex-netlify-host.js` adds `X-Robots-Tag: noindex` on `*.netlify.app` hosts only, so the custom domain is unaffected.
 - Analytics (GA, Scarf) load only after cookie consent.
 
 ## Cutover checklist (GitHub Pages → Netlify)
