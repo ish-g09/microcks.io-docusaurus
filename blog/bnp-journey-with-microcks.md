@@ -35,7 +35,7 @@ Microcks is an open source project designed to create mock or simulated versions
 > As a [CNCF Sandbox project](https://landscape.cncf.io/?selected=microcks), Microcks is cloud native, making it ideal for modern IT infrastructures using Kubernetes that prioritize scalability, flexibility, and environmental sustainability.
 
 <p>
-    ![image BNP Microcks deployment architecture at BNP Paribas](/images/blog/bnp-microcks deployment architecture.png)
+    <img src="/images/blog/bnp-microcks%20deployment%20architecture.png" alt="image BNP Microcks deployment architecture at BNP Paribas" />
 </p>
 <p style="text-align: center;">
     <em>Microcks deployment architecture at BNP Paribas.</em>
@@ -56,7 +56,7 @@ We use Microcks to **offload traffic from our mainframe** by **mocking the banki
 Previously, our developers and testers had to interact directly with the mainframe to validate API integrations or test new features. This process was slow and placed unnecessary strain on the mainframe.
 
 <p>
-    ![image BNP Core Banking API Mocking with Microcks](/images/blog/bnp-core-banking-mocking-with-microcks.png)
+    <img src="/images/blog/bnp-core-banking-mocking-with-microcks.png" alt="image BNP Core Banking API Mocking with Microcks" />
 </p>
 <p style="text-align: center;">
     <em>Core Banking API Mocking with Microcks.</em>
@@ -87,7 +87,7 @@ This reduction in mainframe usage not only **cuts operational costs** but also s
 Implementing new technology within a large, established organization like BNP Paribas is challenging. However, the benefits of adopting Microcks far outweighed any initial hurdles.
 
 <p>
-    ![image BNP How Microcks fits in BNP Paribas CI/CD pipelines](/images/blog/bnp-how-microcks-fits-in-pipelines.png)
+    <img src="/images/blog/bnp-how-microcks-fits-in-pipelines.png" alt="image BNP How Microcks fits in BNP Paribas CI/CD pipelines" />
 </p>
 <p style="text-align: center;">
     <em>How Microcks fits in BNP Paribas CI/CD pipelines.</em>

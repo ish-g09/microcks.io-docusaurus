@@ -84,13 +84,13 @@ We will use this Collection to specify sample data for our mock. This is a three
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first graphql collection request](/images/documentation/first-graphql-collection-request.png)      
+      <img src="/images/documentation/first-graphql-collection-request.png" alt="first graphql collection request" />
     </div>
     <div class="swiper-slide">
-      ![first graphql collection allpets](/images/documentation/first-graphql-collection-allpets.png)
+      <img src="/images/documentation/first-graphql-collection-allpets.png" alt="first graphql collection allpets" />
     </div>
     <div class="swiper-slide">
-      ![first graphql collection export](/images/documentation/first-graphql-collection-export.png)
+      <img src="/images/documentation/first-graphql-collection-export.png" alt="first graphql collection export" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
@@ -223,13 +223,13 @@ Let's complete our Postman Collection with a new request for the new `searchPets
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first graphql collection searchpets](/images/documentation/first-graphql-collection-searchpets.png)      
+      <img src="/images/documentation/first-graphql-collection-searchpets.png" alt="first graphql collection searchpets" />
     </div>
     <div class="swiper-slide">
-      ![first graphql collection kpets](/images/documentation/first-graphql-collection-kpets.png)
+      <img src="/images/documentation/first-graphql-collection-kpets.png" alt="first graphql collection kpets" />
     </div>
     <div class="swiper-slide">
-      ![first graphql collection export](/images/documentation/first-graphql-collection-export.png)
+      <img src="/images/documentation/first-graphql-collection-export.png" alt="first graphql collection export" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
@@ -369,13 +369,13 @@ Let's complete our Postman Collection with a new request for the new `createPet`
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first graphql collection createpet](/images/documentation/first-graphql-collection-createpet.png)      
+      <img src="/images/documentation/first-graphql-collection-createpet.png" alt="first graphql collection createpet" />
     </div>
     <div class="swiper-slide">
-      ![first graphql collection newpet](/images/documentation/first-graphql-collection-newpet.png)
+      <img src="/images/documentation/first-graphql-collection-newpet.png" alt="first graphql collection newpet" />
     </div>
     <div class="swiper-slide">
-      ![first graphql collection export](/images/documentation/first-graphql-collection-export.png)
+      <img src="/images/documentation/first-graphql-collection-export.png" alt="first graphql collection export" />
     </div>
   </div>
   <div class="swiper-pagination"></div>

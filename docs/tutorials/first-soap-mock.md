@@ -106,16 +106,16 @@ We now have some more initialization work to do. This is a four steps process th
 <div class="swiper single-slider" style="margin-bottom: 20px">
   <div class="swiper-wrapper" style="padding-bottom: 20px; margin-bottom: 20px">
     <div class="swiper-slide">
-      ![first soap initial generate mock 1](/images/documentation/first-soap-initial-generate-mock-1.png)      
+      <img src="/images/documentation/first-soap-initial-generate-mock-1.png" alt="first soap initial generate mock 1" />
     </div>
     <div class="swiper-slide">
-      ![first soap initial generate mock 2](/images/documentation/first-soap-initial-generate-mock-2.png)
+      <img src="/images/documentation/first-soap-initial-generate-mock-2.png" alt="first soap initial generate mock 2" />
     </div>
     <div class="swiper-slide">
-      ![first soap initial mock name](/images/documentation/first-soap-initial-mock-name.png)
+      <img src="/images/documentation/first-soap-initial-mock-name.png" alt="first soap initial mock name" />
     </div>
     <div class="swiper-slide">
-      ![first soap initial version](/images/documentation/first-soap-initial-version.png)
+      <img src="/images/documentation/first-soap-initial-version.png" alt="first soap initial version" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
@@ -142,13 +142,13 @@ Let's start by the request. This is a three steps process that is illustrated be
 <div class="swiper single-slider" style="margin-bottom: 20px">
   <div class="swiper-wrapper" style="padding-bottom: 20px; margin-bottom: 20px">
     <div class="swiper-slide">
-      ![first soap data generate suite](/images/documentation/first-soap-data-generate-suite.png)
+      <img src="/images/documentation/first-soap-data-generate-suite.png" alt="first soap data generate suite" />
     </div>
     <div class="swiper-slide">
-      ![first soap data suite form](/images/documentation/first-soap-data-suite-form.png)
+      <img src="/images/documentation/first-soap-data-suite-form.png" alt="first soap data suite form" />
     </div>
     <div class="swiper-slide">
-      ![first soap data suite name](/images/documentation/first-soap-data-suite-name.png)
+      <img src="/images/documentation/first-soap-data-suite-name.png" alt="first soap data suite name" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
@@ -296,10 +296,10 @@ This is the results you should achieve below:
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first soap data kpets](/images/documentation/first-soap-data-kpets.png)
+      <img src="/images/documentation/first-soap-data-kpets.png" alt="first soap data kpets" />
     </div>
     <div class="swiper-slide">
-      ![first soap data ipets](/images/documentation/first-soap-data-ipets.png)
+      <img src="/images/documentation/first-soap-data-ipets.png" alt="first soap data ipets" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
@@ -320,10 +320,10 @@ Then, based on this property value (`k` or `i`), you'll define to return either 
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first soap data kpets dispatch](/images/documentation/first-soap-data-kpets-dispatch.png)
+      <img src="/images/documentation/first-soap-data-kpets-dispatch.png" alt="first soap data kpets dispatch" />
     </div>
     <div class="swiper-slide">
-      ![first soap data ipets dispatch](/images/documentation/first-soap-data-ipets-dispatch.png)
+      <img src="/images/documentation/first-soap-data-ipets-dispatch.png" alt="first soap data ipets dispatch" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
@@ -450,10 +450,10 @@ Let's complete our SoapUI with a new request and a new response - both named `cr
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first soap data createPet](/images/documentation/first-soap-data-createPet.png)
+      <img src="/images/documentation/first-soap-data-createPet.png" alt="first soap data createPet" />
     </div>
     <div class="swiper-slide">
-      ![first soap data createPet dispatch](/images/documentation/first-soap-data-createPet-dispatch.png)
+      <img src="/images/documentation/first-soap-data-createPet-dispatch.png" alt="first soap data createPet dispatch" />
     </div>
   </div>
   <div class="swiper-pagination"></div>

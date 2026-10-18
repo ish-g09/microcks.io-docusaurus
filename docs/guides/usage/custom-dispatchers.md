@@ -56,13 +56,13 @@ This tries to match a response by the `name` path parameter first (using `URI_PA
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![custom dispatcher api pastry](/images/documentation/custom-dispatcher-api-pastry.png)      
+      <img src="/images/documentation/custom-dispatcher-api-pastry.png" alt="custom dispatcher api pastry" />
     </div>
     <div class="swiper-slide">
-      ![custom dispatcher pastry](/images/documentation/custom-dispatcher-pastry.png)
+      <img src="/images/documentation/custom-dispatcher-pastry.png" alt="custom dispatcher pastry" />
     </div>
     <div class="swiper-slide">
-      ![custom dispatcher](/images/documentation/custom-dispatcher.png)
+      <img src="/images/documentation/custom-dispatcher.png" alt="custom dispatcher" />
     </div>
   </div>
   <div class="swiper-pagination"></div>

@@ -17,7 +17,7 @@ So I setup this new example based on a real life use-case our community users ha
 * `apiKey` is a parameter allowing to identify API caller and apply tracing, rate limits and so on...
 
 <figure class="tc">
-  ![advanced dispatching constraints](/images/blog/advanced-dispatching-constraints.jpg)
+  <img src="/images/blog/advanced-dispatching-constraints.jpg" alt="advanced dispatching constraints" />
 <br> Photo by <a href="https://unsplash.com/@jordanmadrid?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jordan Madrid</a> on <a href="https://unsplash.com/s/photos/compass?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></i></figcaption>
 </figure>
 

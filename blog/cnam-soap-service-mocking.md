@@ -17,7 +17,7 @@ With over 2,500 employees, the Caisse Nationale de l’Assurance Maladie [CNAM](
 Additionally, we coordinate with and assist the local organizations within our network, which consists of **164 entities deployed nationally**, regionally, and locally throughout France. We rely on [SOAP](https://nordicapis.com/apis-101-what-is-soap-simple-object-access-protocol/) (Simple Object Access Protocol) for our historical and mission-critical legacy systems to facilitate seamless information exchange among these organizations.
 
 <p>
-    ![image reseau cnam](/images/blog/reseau-cnam.png)
+    <img src="/images/blog/reseau-cnam.png" alt="image reseau cnam" />
 </p>
 <p style="text-align: center;">
     <em>Source (🇫🇷): <a href="https://www.assurance-maladie.ameli.fr/qui-sommes-nous/organisation/reseau-proximite" target="_blank">https://www.assurance-maladie.ameli.fr/qui-sommes-nous/organisation/reseau-proximite</a></em>
@@ -54,7 +54,7 @@ At CNAM, we have chosen **Microcks to accelerate and automate** the simulation (
 4. **Self-Service Mock Generation**: With Microcks, we enable **self-service** mock generation for API consumers, **empowering developers** to iterate quickly and test their applications effectively.
 
 <p>
-    ![image cnam mock admin web app](/images/blog/cnam-mock-admin-web-app.png)
+    <img src="/images/blog/cnam-mock-admin-web-app.png" alt="image cnam mock admin web app" />
 </p>
 <p style="text-align: center;">
     <em>CNAM Mock admin web application workflow.</em>
@@ -68,7 +68,7 @@ At CNAM, we have chosen **Microcks to accelerate and automate** the simulation (
 The datasets imported in Microcks are formatted as CSV files, containing various information such as letters, words, phrases, numbers, tables, or regular expressions (regex).
 
 <p>
-    ![image csv formatted cnam dataset](/images/blog/csv-formatted-cnam-dataset.png)
+    <img src="/images/blog/csv-formatted-cnam-dataset.png" alt="image csv formatted cnam dataset" />
 </p>
 <p style="text-align: center;">
     <em>CSV-formatted CNAM dataset and Microcks dynamic custom dispatch.</em>
@@ -92,7 +92,7 @@ With Microcks' support for **non-regression tests** and **validation**, we can e
 Automated testing **reduces manual quality assurance effort** and enables **faster feedback loops**, allowing developers to iterate more **quickly** and **confidently** to improve overall development velocity. 
 
 <p>
-    ![image cnam automation tests pipeline](/images/blog/cnam-automation-tests-pipeline.png)
+    <img src="/images/blog/cnam-automation-tests-pipeline.png" alt="image cnam automation tests pipeline" />
 </p>
 <p style="text-align: center;">
     <em>CNAM Mock admin web application to Microcks’ automation tests pipeline.</em>

@@ -23,7 +23,7 @@ So here’s a little refresher that will give you insights on why we started Mic
 One huge problem in software development is the translation mismatch we usually face between business requirements and product release - you don’t learn anything new here isn’t it ? Business Lines people usually produce some spec documents that are translated into software packages, API contracts and so on. These one are then put into a Git repository and thrown away to the CI/CD pipelines or staging and release process.
 
 <figure class="tc">
-  ![why microcks spec](/images/blog/why-microcks-spec.png)
+  <img src="/images/blog/why-microcks-spec.png" alt="why microcks spec" />
   <figcaption><i class="f5">Fig 1: Specifications produced as documents are “translated” into software packages <br/> and API contracts. Translation leads to drifts from initial expectations.</i></figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ Existing tools that propose writing code for mocks are contributing to this mism
 At Microcks we were thinking of using the concepts of example-driven design and executable specification to help define API and microservices contracts. Those concepts are both simple and powerful: just express your specification as examples - in the case of API and services it means request and response examples - and reuse them as the acceptance rules for produced software. We saw it as a way that allows Business Line experts and Developers to collaborate and produce a **contract definition** ; eliminating the translation and the drift risk.
 
 <figure class="tc">
-  ![why microcks examples](/images/blog/why-microcks-examples.png)
+  <img src="/images/blog/why-microcks-examples.png" alt="why microcks examples" />
   <figcaption><i class="f5">Fig 2: Specifications produced as examples within API contracts represent <br/> the “source of truth”. It eliminates drifting risks.</i></figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Sure software code still has to be written for implementing the behaviour but pr
 At the time we investigated first Microcks prototypes in early 2015, a bunch of standards and toolings arose that would be of great help making these ideas real. Supporting standards was a no-brainer for us and luckily enough the [OpenAPI](https://www.openapis.org/) and [AsyncAPI](https://www.asyncapi.com/) specifications were handling examples ! We saw it as the confirmation of the crucial role of examples as we foresaw it. We were also truly convinced that toolings had a great role to play to foster collaboration between personas. So we extended the range of possibilities and now Microcks supports all these formats as contract definition.
 
 <figure class="tc">
-  ![why microcks standards](/images/blog/why-microcks-standards.png)
+  <img src="/images/blog/why-microcks-standards.png" alt="why microcks standards" />
   <figcaption><i class="f5">Fig 3: Supported standards and tools in Microcks.</i></figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ We face these challenges on a day-to-day basis working with companies that have 
 Most of the existing tools propose running the mock services on the developer laptop or within the CI/CD pipeline. This leads to many developers running a lot of short-lived de-synchronized mocks locally. Imagine building an application with a dozen dependencies and a team of a dozen developers. This made more than 100 mocks to configure, run and keep up-to-date as the development sprints are coming. This model is simply not viable at scale!
 
 <figure class="tc">
-  ![why microcks distributed](/images/blog/why-microcks-distributed.png)
+  <img src="/images/blog/why-microcks-distributed.png" alt="why microcks distributed" />
   <figcaption><i class="f5">Fig 4: Running mocks on developer’s laptop or build servers imply synchronization efforts <br/> and a lot of consumed resources. This model is not scalable.
 </i></figcaption>
 </figure>
@@ -73,7 +73,7 @@ Most of the existing tools propose running the mock services on the developer la
 We were looking for a scalable model with no risk of having out-of-sync mocks with later changes. That’s why we built Microcks using a platform approach. In an organisation, Microcks can be deployed centrally and connected to the various Git repositories. It will take care of **discovering and syncing contract definitions** for your APIs and provide always up-to-date endpoints mocking the last committed changes. It will also keep the history of all previously managed and deployed versions of your APIs and services - and thus help with their governance and natural referencing.
 
 <figure class="tc">
-  ![why microcks platform](/images/blog/why-microcks-platform.png)
+  <img src="/images/blog/why-microcks-platform.png" alt="why microcks platform" />
   <figcaption><i class="f5">Fig 5: Microcks is central, lightweight, always-in-sync with API contracts in Git <br/> and provides always-up and scalable mocks.
 </i></figcaption>
 </figure>
@@ -91,7 +91,7 @@ Despite being a “platform” Microcks could not impose any deployment location
 Within our team we’re early adopters of containers and Kubernetes. So the choice was natural to make Microcks Kubernetes-native from day 1. But we do not just “run on Kubernetes” ; we integrate all the ecosystems like Operators, Helm, Autoscalers and so on to provide you the easiest and automated operational experience.
 
 <figure class="tc">
-  ![why microcks deployment](/images/blog/why-microcks-deployment.png)
+  <img src="/images/blog/why-microcks-deployment.png" alt="why microcks deployment" />
   <figcaption><i class="f5">Fig 6: Deployment options for Microcks: on-premises or on the cloud.</i></figcaption>
 </figure>
 

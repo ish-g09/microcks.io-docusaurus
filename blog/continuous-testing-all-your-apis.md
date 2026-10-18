@@ -23,7 +23,7 @@ The best practices in system design are clearly promoting separation of concerns
 * [Service Oriented Architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture) (SOA) for blocking interaction with the user performing registration,
 * [Event Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) (EDA) for asynchronous and non-blocking interaction made by systems reacting on user registration.
 
- ![continuous testing all your apis design](/images/blog/continuous-testing-all-your-apis-design.png)
+ <img src="/images/blog/continuous-testing-all-your-apis-design.png" alt="continuous testing all your apis design" />
 
 To specify the contract of these interaction you ended up designing two APIs :
 
@@ -32,7 +32,7 @@ To specify the contract of these interaction you ended up designing two APIs :
 
 And that’s the time where [OpenAPI](https://www.openapis.org/) and [AsyncAPI](https://www.asyncapi.com/) enter the game! You will use them to describe the protocol semantics you plan to use (HTTP verbs, message broker topics, security schemes, ...) and the syntactic definitions of exchanged data.
 
- ![continuous testing all your apis apis](/images/blog/continuous-testing-all-your-apis-apis.png)
+ <img src="/images/blog/continuous-testing-all-your-apis-apis.png" alt="continuous testing all your apis apis" />
 
 We can see that OpenAPI and AsyncAPI are addressing different and complementary scopes of API contract definition. Even if different, you will surely benefit from having a consistent approach while governing them and feature parity when it comes to accelerating delivery.
 

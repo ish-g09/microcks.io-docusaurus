@@ -82,16 +82,16 @@ A simple button can bring considerable usability improvement! We scratched our h
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![microcks 1.8.0 copy curl](/images/blog/microcks-1.8.0-copy-curl.png)
+      <img src="/images/blog/microcks-1.8.0-copy-curl.png" alt="microcks 1.8.0 copy curl" />
     </div>
     <div class="swiper-slide">
-      ![microcks 1.8.0 add to ci](/images/blog/microcks-1.8.0-add-to-ci.png)
+      <img src="/images/blog/microcks-1.8.0-add-to-ci.png" alt="microcks 1.8.0 add to ci" />
     </div>
     <div class="swiper-slide">
-      ![microcks 1.8.0 test help](/images/blog/microcks-1.8.0-test-help.png)
+      <img src="/images/blog/microcks-1.8.0-test-help.png" alt="microcks 1.8.0 test help" />
     </div>
     <div class="swiper-slide">
-      ![microcks 1.8.0 help modal](/images/blog/microcks-1.8.0-help-modal.png)
+      <img src="/images/blog/microcks-1.8.0-help-modal.png" alt="microcks 1.8.0 help modal" />
     </div>
   </div>
   <div class="swiper-pagination"></div>

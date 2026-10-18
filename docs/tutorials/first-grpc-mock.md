@@ -92,13 +92,13 @@ From now, we will use this Collection to specify sample data for our mock. This 
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first grpc collection request](/images/documentation/first-grpc-collection-request.png)      
+      <img src="/images/documentation/first-grpc-collection-request.png" alt="first grpc collection request" />
     </div>
     <div class="swiper-slide">
-      ![first grpc collection allpets](/images/documentation/first-grpc-collection-allpets.png)
+      <img src="/images/documentation/first-grpc-collection-allpets.png" alt="first grpc collection allpets" />
     </div>
     <div class="swiper-slide">
-      ![first grpc collection export](/images/documentation/first-grpc-collection-export.png)
+      <img src="/images/documentation/first-grpc-collection-export.png" alt="first grpc collection export" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
@@ -177,13 +177,13 @@ Let's complete our Postman Collection with a new request for the new `searchPets
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first grpc collection searchpets](/images/documentation/first-grpc-collection-searchpets.png)      
+      <img src="/images/documentation/first-grpc-collection-searchpets.png" alt="first grpc collection searchpets" />
     </div>
     <div class="swiper-slide">
-      ![first grpc collection kpets](/images/documentation/first-grpc-collection-kpets.png)
+      <img src="/images/documentation/first-grpc-collection-kpets.png" alt="first grpc collection kpets" />
     </div>
     <div class="swiper-slide">
-      ![first grpc collection export](/images/documentation/first-grpc-collection-export.png)
+      <img src="/images/documentation/first-grpc-collection-export.png" alt="first grpc collection export" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
@@ -253,13 +253,13 @@ Let's complete our Postman Collection with a new request for the new `createPet`
 <div class="swiper single-slider">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      ![first grpc collection createpet](/images/documentation/first-grpc-collection-createpet.png)      
+      <img src="/images/documentation/first-grpc-collection-createpet.png" alt="first grpc collection createpet" />
     </div>
     <div class="swiper-slide">
-      ![first grpc collection newpet](/images/documentation/first-grpc-collection-newpet.png)
+      <img src="/images/documentation/first-grpc-collection-newpet.png" alt="first grpc collection newpet" />
     </div>
     <div class="swiper-slide">
-      ![first grpc collection export](/images/documentation/first-grpc-collection-export.png)
+      <img src="/images/documentation/first-grpc-collection-export.png" alt="first grpc collection export" />
     </div>
   </div>
   <div class="swiper-pagination"></div>
