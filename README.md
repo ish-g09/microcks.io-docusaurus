@@ -9,7 +9,9 @@ Docusaurus 3 site for microcks.io, deployed on Netlify.
   2. `docusaurus build` (also generates `llms.txt` / `llms-full.txt`, using the `rootContent` from `docusaurus.config.js`).
   3. `scripts/preload-fonts.mjs`: preloads the critical latin fonts in every page (avoids layout shift on font swap).
   4. `scripts/generate-route-markdown.mjs`: Markdown twins of every route (`build/<route>.md`).
-  5. `scripts/validate-machine-content.mjs`: fails the build on missing/broken/non-canonical `llms.txt` links or over-long entries.
+  5. `scripts/validate-machine-content.mjs`: fails the build on missing/broken/non-canonical `llms.txt` links, over-long entries, Markdown twins without the AI-agent directive or with non-absolute links.
+
+Agent-friendliness (score 100/A+ with `npx afdocs check <url> --canonical-origin https://microcks.io`): a hidden `llms-txt-directive` in `src/theme/Root.js`, the main content placed before the sidebar/navbar in the DOM (`src/theme/Layout`, `src/theme/DocRoot/Layout`, restored visually with CSS `order`), and the HTML minifier disabled (`swcHtmlMinimizer: false`) because omitted `</td>`/`</tr>` tags break HTML parsers. Do not write Markdown images directly under an HTML tag without a blank line: they render as literal text.
 - `npm test` — unit checks; `npm run check:parity` — compares the live sitemap with the build
 
 ## Content
