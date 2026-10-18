@@ -1,0 +1,974 @@
+apiVersion: v1
+entries:
+  microcks:
+  - apiVersion: v2
+    appVersion: 1.15.0
+    created: "2026-08-21T15:02:07.783242+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 9e601eb245eb8b762b9d587d5312a4304f3d9a89fb05e0e394ecdcb69c062acb
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.15.0.tgz
+    version: 1.15.0
+  - apiVersion: v2
+    appVersion: 1.15.0-rc1
+    created: "2026-06-22T14:17:17.896378+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 8831f861cd310bbff6c8102c15c2aadab6d23a47fb12ed0956c5f15b49866ab5
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.15.0-rc1.tgz
+    version: 1.15.0-rc1
+  - apiVersion: v2
+    appVersion: 1.14.0
+    created: "2026-04-29T11:27:52.607759+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: e33951a1dc2918dadf89fedbd2602515cd4313ecdacbf14f8735bb9d0c8e0cd0
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.14.0.tgz
+    version: 1.14.0
+  - apiVersion: v2
+    appVersion: 1.14.0-rc2
+    created: "2026-03-31T17:16:50.981996+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 415d85ca90122acd96fa0616879b10f99245b58ece013871c32b8053496a9329
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.14.0-rc2.tgz
+    version: 1.14.0-rc2
+  - apiVersion: v2
+    appVersion: 1.13.2
+    created: "2026-01-06T17:54:37.771383186+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 6032b37090378b978b90966bed8291d9412c15a1d13a227398ba8331ec4cbbda
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.13.2.tgz
+    version: 1.13.2
+  - apiVersion: v2
+    appVersion: 1.13.1
+    created: "2025-12-08T17:33:20.579316+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 1617eabe00d013779a54b74c165a36e293ff333f3c7be2c4d8311aba56bacd19
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.13.1.tgz
+    version: 1.13.1
+  - apiVersion: v2
+    appVersion: 1.13.0
+    created: "2025-10-25T17:14:46.210075+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: ebf03bc63dd254d51e6c6ff56b0b35251e2e76c9642268b64d2abfd063a5cd3e
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.13.0.tgz
+    version: 1.13.0
+  - apiVersion: v2
+    appVersion: 1.12.1
+    created: "2025-07-21T14:50:46.310231+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: a7403b333876d22e5f3072622c8da884c26391e9bd0d8d0201354fc7f8a9c46c
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.12.1.tgz
+    version: 1.12.1
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2025-05-28T15:01:33.118631+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 0cb6db23eb656fc2b5800e71be4cdca8ca3fb7e2b827b2406ca512a1df986c6b
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.12.0.tgz
+    version: 1.12.0
+  - apiVersion: v2
+    appVersion: 1.11.2
+    created: "2025-03-25T17:38:06.163546+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 02b9d500e5cc69012312351910c1fed65e1d906b592b5071631b8e08499b4b5f
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.11.2.tgz
+    version: 1.11.2
+  - apiVersion: v2
+    appVersion: 1.11.1
+    created: "2025-03-06T15:19:57.439372+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 9b986c9da1b3487588d91f533595c067b27aeb2ef2c22162a3c50f35a977454f
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.11.1.tgz
+    version: 1.11.1
+  - apiVersion: v2
+    appVersion: 1.11.0
+    created: "2025-01-15T14:34:10.797324+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: a88135633bff1c9ef579bb1465c0fb1137d011588c5c657a395423fff5988bf5
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.11.0.tgz
+    version: 1.11.0
+  - apiVersion: v2
+    appVersion: 1.10.1
+    created: "2024-09-30T10:38:51.344773+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: c5dd7ec1fb16b5e36f39bdc2aeeda99c493703cec4ebb16d52dbf1055087314d
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.10.1.tgz
+    version: 1.10.1
+  - apiVersion: v2
+    appVersion: 1.10.0
+    created: "2024-08-01T09:46:10.37573+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: fe6ef03af80cc45e46cf052d109c323b39b0848cecb63c0e448a6f14698322d5
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.10.0.tgz
+    version: 1.10.0
+  - apiVersion: v2
+    appVersion: 1.10.0-fix-2
+    created: "2024-08-19T11:44:42.983948+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 246968239423ccaf6a4beddd4b9c467399dc60b5479339510f801b297459ab26
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.10.0-fix-2.tgz
+    version: 1.10.0-fix-2
+  - apiVersion: v2
+    appVersion: 1.9.1
+    created: "2024-05-22T09:23:17.17805+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 61e72e75c15232e683e60161b132f07ac755b2297b7762b97490934c05356366
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.9.1.tgz
+    version: 1.9.1
+  - apiVersion: v2
+    appVersion: 1.9.0
+    created: "2024-03-13T12:39:24.369049+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 427f85f0b6a1d6c7ada6d9a536e7583acaf5ad5c80b6396a7f4dc4ab6fdd07f9
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.9.0.tgz
+    version: 1.9.0
+  - apiVersion: v2
+    appVersion: 1.8.1
+    created: "2024-01-09T17:04:28.916401+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 74081dd4c21d831275456ff3cb87e08f1571fdb4611b8bcf84ac4306f026f1b1
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.8.1.tgz
+    version: 1.8.1
+  - apiVersion: v2
+    appVersion: 1.8.0
+    created: "2023-10-16T13:01:31.454596+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: d8ba16deacad5b5b9b3a886b077b0dd213271b037333a18cfd9ff4e755aca120
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.8.0.tgz
+    version: 1.8.0
+  - apiVersion: v2
+    appVersion: 1.7.1
+    created: "2023-06-15T09:16:12.818939+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 4b6b6bb2c46a72ff592cc716ea2bec210218bd306f7e0233900b6e5954bbd1ad
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.7.1.tgz
+    version: 1.7.1
+  - apiVersion: v2
+    appVersion: 1.7.0
+    created: "2023-03-08T17:58:46.074979+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 99f3663ebe1759431a6a76706110d9b9af8678a14c0601bafbc4eaff198d385b
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v2
+    appVersion: 1.6.1
+    created: "2022-11-25T17:51:31.069143+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: e7171269d78156940fbe7caa6c7ec78ee7172789c083ef0e9f050b253b1f0c75
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.6.1.tgz
+    version: 1.6.1
+  - apiVersion: v2
+    appVersion: 1.6.0
+    created: "2022-09-09T18:15:27.033598+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 57aa7e7cc12516f5516121af73b9c730959a3bfbb17ba9fa45a6fa7c112e910e
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v2
+    appVersion: 1.5.2
+    created: "2022-05-16T18:23:24.590651+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 8ecb2bad1dfb0b75567d167d2814e46623616f7d08804a9bcc1ed7e0676757ba
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.5.2.tgz
+    version: 1.5.2
+  - apiVersion: v2
+    appVersion: 1.5.1
+    created: "2022-04-07T17:23:37.538083+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: ce1e7e9ad47aae4465bd39593ba4fcaf66b27d0719d9e791bb219237ace2f3be
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.5.1.tgz
+    version: 1.5.1
+  - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2022-01-13T16:04:12.100292+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: b58567e9a5ef48d8f873df5f9feaeb343679091834abb294f344366961a2b5e9
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
+    appVersion: 1.4.1
+    created: "2021-10-04T15:00:26.868107+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 6f92f16daeb7943ab0fc52243ae628b2d0904d31ba97d1700739f9f4bed9d9fc
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2021-07-01T13:48:48.696087+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 9b21d8dc650f685dcf383e4eab8ce4e42150a66f6af3328d3e841ab83b622a9f
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-04-28T16:23:32.186281+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 5b042619369a28758ac97585a03fe2d4c7cc6474aada3d1d79e472f396ad73e8
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2021-02-17T14:49:45.42224+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 1e0140301bf5227c0f83d8c9f439da2ba61eb015427a7b6420536a08fda3b3a3
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2020-10-26T11:57:40.275004+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: 2d5b188a474c23694a541a5229a81284763d6abd6aa24c2db27bca40c9568f2d
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-08-12T17:58:15.613767+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: be3127fa74bd335400902136a79054a9ed691780f8bdd7dbff5297dbabd14852
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 0.9.2
+    created: "2020-05-19T22:27:37.083585+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: 3726102749cf9ad9a0343cb8d636475a0e0d6938f068c59149049263dbe69b68
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-0.9.2.tgz
+    version: 0.9.2
+  - apiVersion: v2
+    appVersion: 0.9.1
+    created: "2020-05-05T12:16:40.804923+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: f5b7e288241c55452b18791011294ee015be77cc44a311ee830d9fd83d0becc1
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-0.9.1.tgz
+    version: 0.9.1
+  - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2020-04-17T12:37:27.551484+02:00"
+    description: Microcks - API Mocking and Testing
+    digest: a93922c8ed835d6545269b4b18727405482f60b3b756cdaf7d193912949a8ef7
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2020-02-26T09:21:04.15071+01:00"
+    description: Microcks - API Mocking and Testing
+    digest: b7dbd5de6d564486889586d9d595ab445e540a22ad7604def2b0e1d290d620c6
+    home: https://microcks.io
+    icon: https://microcks.io/images/microcks-big.png
+    keywords:
+    - mocks
+    - microservice
+    - api
+    - test
+    kubeVersion: '>=1.17.0'
+    maintainers:
+    - email: laurent.broudoux@gmail.com
+      name: Laurent Broudoux
+    name: microcks
+    sources:
+    - http://github.com/microcks/microcks/
+    - https://microcks.io
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-0.8.0.tgz
+    version: 0.8.0-helm-3.kube-1.17
+  microcks-operator:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-08-14T17:30:28.190139+02:00"
+    description: Helm chart to install the Microcks Operator and CRDs
+    digest: 13548e289ec63b6ca52ee831a61e5fa9886b4b46bcd4daf08206f6834a7ca258
+    home: https://microcks.io/
+    keywords:
+    - microcks
+    - operator
+    - kubernetes-operator
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: Microcks Maintainers
+      url: https://github.com/microcks
+    name: microcks-operator
+    sources:
+    - https://github.com/microcks/microcks-operator
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-operator-0.0.11.tgz
+    version: 0.0.11
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-06-22T16:53:38.174449+02:00"
+    description: Helm chart to install the Microcks Operator and CRDs
+    digest: 1ed0b758f52b7c174414a01d9b135635a00cc1f88214856b5073f2efad475c23
+    home: https://microcks.io/
+    keywords:
+    - microcks
+    - operator
+    - kubernetes-operator
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: Microcks Maintainers
+      url: https://github.com/microcks
+    name: microcks-operator
+    sources:
+    - https://github.com/microcks/microcks-operator
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-operator-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-04-09T19:28:47.47055+02:00"
+    description: Helm chart to install the Microcks Operator and CRDs
+    digest: 15f0a597c2ee5c111efeeb6278cc5c6e8dbf82fa7375ac9b281d8871d133e4fb
+    home: https://microcks.io/
+    keywords:
+    - microcks
+    - operator
+    - kubernetes-operator
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: Microcks Maintainers
+      url: https://github.com/microcks
+    name: microcks-operator
+    sources:
+    - https://github.com/microcks/microcks-operator
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-operator-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-02-05T11:50:51.527166+01:00"
+    description: Helm chart to install the Microcks Operator and CRDs
+    digest: cb428058125efea7f5ae0e50a0090bb6df9a4527a8af94578f483148c2c96d04
+    home: https://microcks.io/
+    keywords:
+    - microcks
+    - operator
+    - kubernetes-operator
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: Microcks Maintainers
+      url: https://github.com/microcks
+    name: microcks-operator
+    sources:
+    - https://github.com/microcks/microcks-operator
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-operator-0.0.7.tgz
+    version: 0.0.7
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-11-04T14:40:14.160354+01:00"
+    description: Helm chart to install the Microcks Operator and CRDs
+    digest: f2cf640faaafcffb54712398a764c58a6b96bed9a0341eb94a82318c733cbf11
+    home: https://microcks.io/
+    keywords:
+    - microcks
+    - operator
+    - kubernetes-operator
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: Microcks Maintainers
+      url: https://github.com/microcks
+    name: microcks-operator
+    sources:
+    - https://github.com/microcks/microcks-operator
+    type: application
+    urls:
+    - https://microcks.io/helm/microcks-operator-0.0.6.tgz
+    version: 0.0.6
+generated: "2026-08-21T15:02:07.782017+02:00"

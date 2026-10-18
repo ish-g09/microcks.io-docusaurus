@@ -1,0 +1,40 @@
+// Post-build check of the machine-readable outputs (llms.txt, llms-full.txt, route Markdown twins).
+import fs from 'node:fs';
+import path from 'node:path';
+
+const BUILD = path.resolve(import.meta.dirname, '..', 'build');
+const ORIGIN = 'https://microcks.io';
+const errors = [];
+
+for (const f of ['llms.txt', 'llms-full.txt', 'index.md']) {
+  if (!fs.existsSync(path.join(BUILD, f))) errors.push(`Missing build/${f}`);
+}
+
+const llmsPath = path.join(BUILD, 'llms.txt');
+if (fs.existsSync(llmsPath)) {
+  const llms = fs.readFileSync(llmsPath, 'utf8');
+  const exists = rel => {
+    const clean = rel.replace(/[?#].*$/, '').replace(/^\/|\/$/g, '');
+    return [`${clean}.md`, path.join(clean, 'index.html'), clean].some(c => {
+      const p = path.join(BUILD, c);
+      return c && fs.existsSync(p) && fs.statSync(p).isFile();
+    });
+  };
+  const links = [...llms.matchAll(/\]\(([^)]+)\)/g)].map(m => m[1]);
+  for (const link of links) {
+    if (!link.startsWith(ORIGIN)) {
+      if (link.startsWith('/')) errors.push(`llms.txt internal link must use ${ORIGIN}: ${link}`);
+      continue;
+    }
+    const rel = link.slice(ORIGIN.length) || '/';
+    if (rel !== '/' && !exists(rel)) errors.push(`Broken llms.txt link: ${link}`);
+  }
+  const long = llms.split('\n').filter(l => /^- \[/.test(l) && l.length > 400);
+  if (long.length) errors.push(`${long.length} llms.txt entries have overly long descriptions`);
+}
+
+if (errors.length) {
+  console.error(`validate-machine-content failed:\n- ${errors.join('\n- ')}`);
+  process.exit(1);
+}
+console.log('validate-machine-content: OK');

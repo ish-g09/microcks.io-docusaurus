@@ -1,0 +1,124 @@
+adam-hicks:
+  name: Adam Hicks
+  title: Staff Software Engineer at Dojo
+  image_url: /images/blog/bio/ahicks.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/the-adam
+    github: https://github.com/adamhicks
+alain-pham:
+  name: Alain Pham
+  title: Principal Solutions Engineer at Grafana Labs
+  image_url: /images/blog/bio/apham.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/alainpham/
+    x: https://twitter.com/alainphm
+    github: https://github.com/alainpham
+andrea-peruffo:
+  name: Andrea Peruffo
+  title: Principal Software Engineer at IBM
+  image_url: /images/blog/bio/aperuffo.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/andrea-peruffo-32269178/
+    x: https://twitter.com/and_prf
+    github: https://github.com/andreaTP
+carol-gschwend:
+  name: Carol Gschwend
+  title: Senior Software Engineer at J.B. Hunt
+  image_url: /images/blog/bio/cgschwend.jpg
+  page: true
+  socials:
+    linkedin: https://linkedin.com/in/carol-gschwend-207650134
+    x: https://twitter.com/CarolGschwend
+    github: https://github.com/carolgschwend
+diane-mueller:
+  name: Diane Mueller
+  title: Managing Director, Research and Advisory Services at Bitergia
+  image_url: /images/blog/bio/diane.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/muellerdiane/
+    x: https://x.com/pythondj
+    github: https://github.com/dmueller2001
+hugo-guerrero:
+  name: Hugo Guerrero
+  title: Chief Software Architect, APIs & Integration Developer Advocate at Red Hat
+  image_url: /images/blog/bio/hguerrero.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/hugoguerrero/
+    x: https://twitter.com/hguerreroo
+    github: https://github.com/hguerrero
+krishi-agrawal:
+  name: Krishi Agrawal
+  title: Student, LFX Mentee'25 and Contributor at Microcks
+  image_url: /images/blog/bio/krishi.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/krishiagrawal/
+    x: https://x.com/KrishiAgra93403
+    github: https://github.com/krishi-agrawal
+laurent-broudoux:
+  name: Laurent Broudoux
+  title: Co-founder of Microcks | Director of Engineering at Postman Open Technologies
+  image_url: /images/blog/bio/lbroudoux.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/laurentbroudoux/
+    bluesky: https://bsky.app/profile/lbroudoux.bsky.social
+    mastodon: https://hachyderm.io/@lbroudoux@fosstodon.org
+    github: https://github.com/lbroudoux
+    x: https://twitter.com/lbroudoux
+ludovic-pourrat:
+  name: Ludovic Pourrat
+  title: API Architect | Platform Architect at Lombard Odier
+  image_url: /images/blog/bio/lpourrat.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/ludovic-pourrat/
+    x: https://x.com/ouarzazazte111
+    github: https://github.com/ludovic-pourrat
+nadji-berraf:
+  name: Nadji Berraf
+  title: Head of Software Expertise Center & Cloud Leader at BNPP
+  image_url: /images/blog/bio/nadji.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/nadji-berraf-26707148/
+nicolas-masse:
+  name: Nicolas Masse
+  title: Principal Solution Architect at Red Hat
+  image_url: /images/blog/bio/nmasse_itix.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/nicolasmasse/
+    x: https://twitter.com/nmasse_itix
+    github: https://github.com/nmasse-itix
+nikolay-afanasyev:
+  name: Nikolay Afanasyev
+  title: Lead Developer
+  image_url: /images/blog/bio/nafanasyev.jpg
+  page: true
+  socials:
+    github: https://github.com/Afanas10101111
+sebastien-fraigneau:
+  name: Sebastien Fraigneau
+  title: Senior Software Engineer at CNAM
+  image_url: /images/blog/bio/sfraigneau.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/s%c3%a9bastien-fraigneau-82826a2/
+    github: https://github.com/sfraigneau
+yacine-kheddache:
+  name: Yacine Kheddache
+  title: Co-founder of Microcks | Director of Product Strategy & Innovation at Postman Open Technologies
+  image_url: /images/blog/bio/yadayac.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/yacinekheddache/
+    bluesky: https://bsky.app/profile/yadayac.bsky.social
+    mastodon: https://hachyderm.io/@YadaYac
+    github: https://github.com/yada
+    X: https://x.com/YadaYac

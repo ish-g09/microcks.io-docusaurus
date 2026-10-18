@@ -1,0 +1,96 @@
+.banner {
+  padding: 4rem 0 3rem;
+}
+.bannerInner,
+.row {
+  max-width: 1320px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+}
+.bannerInner img,
+.row img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.banner h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+.block {
+  position: relative;
+  padding: 5rem 0;
+}
+/* Timeline: vertical line with a dot for each block */
+.block::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: rgba(70, 170, 243, 0.45);
+}
+.block .row {
+  position: relative;
+}
+.block .row::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 22px;
+  height: 22px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #46aaf3;
+}
+.text {
+  text-align: right;
+}
+.reverse .text {
+  text-align: left;
+}
+.text p {
+  font-size: 1.1rem;
+}
+:global(main) .text a:not(:global(.button)),
+:global(main) .lead a:not(:global(.button)) {
+  color: #46aaf3;
+  text-decoration: none;
+}
+:global(main) .text a:not(:global(.button)):hover,
+:global(main) .lead a:not(:global(.button)):hover {
+  text-decoration: underline;
+}
+.lead {
+  font-size: 1.2rem;
+}
+.alt {
+  background: var(--mk-section-alt);
+}
+.reverse .text {
+  order: 2;
+}
+.text h2 {
+  font-size: 2.2rem;
+}
+@media (max-width: 996px) {
+  .block::before,
+  .block .row::after {
+    display: none;
+  }
+  .text,
+  .reverse .text {
+    text-align: left;
+  }
+  .bannerInner,
+  .row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .reverse .text {
+    order: 0;
+  }
+}

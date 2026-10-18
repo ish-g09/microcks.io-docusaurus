@@ -1,0 +1,67 @@
+// Emits a clean Markdown twin (<route>.md) of every doc and blog post into build/,
+// served by the content-negotiation edge function when a client sends `Accept: text/markdown`.
+import fs from 'node:fs';
+import path from 'node:path';
+import matter from 'gray-matter';
+
+const ROOT = path.resolve(import.meta.dirname, '..');
+const OUT = path.join(ROOT, 'build');
+const SITE = 'https://microcks.io';
+
+function walk(dir, fn) {
+  for (const e of fs.readdirSync(dir, {withFileTypes: true})) {
+    const p = path.join(dir, e.name);
+    e.isDirectory() ? walk(p, fn) : fn(p);
+  }
+}
+
+function clean(body) {
+  return body
+    .replace(/^import .*$/gm, '')
+    .replace(/<!--\s*truncate\s*-->/g, '')
+    .replace(/<ApiSpec[^>]*url="([^"]+)"[^>]*\/>/g, (_, u) => `[API specification](${u})`)
+    .replace(/<div class="video-embed"><iframe src="([^"]+)"[^>]*><\/iframe><\/div>/g, '[Video]($1)')
+    .replace(/\]\(\/(?!\/)/g, `](${SITE}/`)
+    .trim();
+}
+
+function emit(route, data, body) {
+  const file = path.join(OUT, `${route.replace(/^\/|\/$/g, '') || 'index'}.md`);
+  fs.mkdirSync(path.dirname(file), {recursive: true});
+  const title = data.title ? `# ${data.title}\n\n` : '';
+  fs.writeFileSync(file, `${title}${clean(body)}\n`);
+}
+
+let count = 0;
+emit('/', {title: 'Microcks'}, `Microcks is an open source, cloud native tool for API mocking and testing (OpenAPI, AsyncAPI, gRPC, GraphQL, SOAP), a CNCF incubating project.
+
+- [Documentation](/documentation/)
+- [Blog](/blog/)
+- [Community](/community/)
+- [LLM index](/llms.txt)`);
+
+walk(path.join(ROOT, 'docs'), p => {
+  if (!/\.mdx?$/.test(p)) return;
+  const rel = path.relative(path.join(ROOT, 'docs'), p).split(path.sep).join('/').replace(/\.mdx?$/, '');
+  const {data, content} = matter(fs.readFileSync(p, 'utf8'));
+  const route = rel === 'index' ? '/documentation' : `/documentation/${rel.replace(/\/index$/, '')}`;
+  emit(route, data, content);
+  count++;
+});
+const posts = [];
+walk(path.join(ROOT, 'blog'), p => {
+  if (!/\.mdx?$/.test(p)) return;
+  const {data, content} = matter(fs.readFileSync(p, 'utf8'));
+  if (!data.slug) return;
+  emit(`/blog/${data.slug}`, data, content);
+  posts.push({slug: data.slug, title: data.title || data.slug, date: String(data.date || '').slice(0, 10)});
+  count++;
+});
+posts.sort((a, b) => b.date.localeCompare(a.date));
+emit('/blog', {title: 'Microcks Blog'}, posts.map(x => `- [${x.title}](/blog/${x.slug}/)${x.date ? ` (${x.date})` : ''}`).join('\n'));
+emit('/community', {title: 'Microcks Community'}, `Microcks is a CNCF incubating open source project. Join the community:
+
+- [GitHub](https://github.com/microcks/microcks)
+- [Community page](/community/)
+- [Documentation](/documentation/)`);
+console.log(`Generated ${count} markdown routes in build/`);

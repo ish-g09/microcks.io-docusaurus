@@ -1,0 +1,11 @@
+{
+  "name": "Microcks",
+  "short_name": "Microcks",
+  "icons": [
+    {"src": "/images/favicon-32x32.png", "sizes": "32x32", "type": "image/png"},
+    {"src": "/images/favicon.png", "type": "image/png", "sizes": "any"}
+  ],
+  "theme_color": "#46AAF3",
+  "background_color": "#1E262C",
+  "display": "standalone"
+}

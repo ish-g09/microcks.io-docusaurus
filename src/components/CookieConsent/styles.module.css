@@ -1,0 +1,22 @@
+.banner {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 24rem;
+  padding: 1rem 1.25rem;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  border: 1px solid var(--mk-border);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+  font-size: 0.9rem;
+}
+.banner p {
+  margin: 0 0 0.75rem;
+  line-height: 1.5;
+}
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}

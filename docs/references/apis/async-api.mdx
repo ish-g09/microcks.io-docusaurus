@@ -1,0 +1,17 @@
+---
+title: Microcks' AsyncAPI
+sidebar_position: 2
+last_update:
+  date: '2024-11-13'
+description: As a tool focused on APIs and Events, Microcks also offers its own Events API that allows you subscribe to events produced by Microcks.
+---
+import ApiSpec from '@site/src/components/ApiSpec';
+
+
+As a tool focused on APIs and Events, Microcks also offers its own Events API that allows you subscribe to events produced by Microcks. Depending on your deployment topology, those events can be consumed directly via WebSockets or via a Kafka topic named `microcks-services-updates`.
+
+The AsyncAPI Web Component below allows you to browse and discover the various API events.
+
+Previous releases of the API definitions can be found in the [GitHub repository](https://github.com/microcks/microcks/tree/master/api).
+
+<ApiSpec kind="asyncapi" url="https://raw.githubusercontent.com/microcks/microcks/master/api/microcks-asyncapi-v1.10.yaml" />

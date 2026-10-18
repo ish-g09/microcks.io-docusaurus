@@ -1,0 +1,131 @@
+.header {
+  text-align: center;
+  margin: 1rem 0 2.5rem;
+}
+.header h1 {
+  font-size: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+.header p {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.thumb {
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--mk-light);
+}
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.thumb:hover img {
+  transform: scale(1.03);
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  flex: 1;
+}
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 1rem;
+  font-size: 0.85rem;
+}
+.authors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--mk-ink);
+  font-weight: 500;
+}
+.authors li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.authors img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.body h2 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin: 0;
+}
+:global(main) .body h2 a:not(:global(.button)) {
+  color: var(--ifm-heading-color);
+  text-decoration: none;
+}
+:global(main) .body h2 a:not(:global(.button)):hover {
+  color: #46aaf3;
+}
+.body p {
+  margin: 0 0 0.4rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.body :global(.button) {
+  margin-top: auto;
+}
+.featured .thumb {
+  aspect-ratio: auto;
+}
+.featured .thumb img {
+  height: auto;
+}
+.featured .body p {
+  display: block;
+  -webkit-line-clamp: unset;
+  font-size: 1.05rem;
+}
+.featured {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+.featured .body {
+  flex: none;
+}
+.featured h2 {
+  font-size: 2rem;
+}
+@media (max-width: 996px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .featured {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

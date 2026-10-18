@@ -1,0 +1,12 @@
+# Legacy URLs from the Hugo site
+/docs/*                 /documentation/:splat   301
+/discord-invite         https://discord.gg/JA4rbcGzk7   302
+/discord-invite/        https://discord.gg/JA4rbcGzk7   302
+/author/:slug           /blog/authors/:slug/    301
+/author/:slug/          /blog/authors/:slug/    301
+/categories             /blog/                  301
+/categories/*           /blog/                  301
+/tags                   /blog/tags/             301
+/tags/*                 /blog/tags/:splat       301
+/author                 /blog/authors/          301
+/author/                /blog/authors/          301
