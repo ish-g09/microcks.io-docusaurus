@@ -40,14 +40,23 @@ emit('/', {title: 'Microcks'}, `Microcks is an open source, cloud native tool fo
 - [Community](/community/)
 - [LLM index](/llms.txt)`);
 
+const docs = [];
 walk(path.join(ROOT, 'docs'), p => {
   if (!/\.mdx?$/.test(p)) return;
   const rel = path.relative(path.join(ROOT, 'docs'), p).split(path.sep).join('/').replace(/\.mdx?$/, '');
   const {data, content} = matter(fs.readFileSync(p, 'utf8'));
   const route = rel === 'index' ? '/documentation' : `/documentation/${rel.replace(/\/index$/, '')}`;
-  emit(route, data, content);
-  count++;
+  docs.push({route, data, content});
 });
+// <DocCardList /> renders the children of a category page: list them explicitly in the Markdown twin
+const childList = route => docs
+  .filter(d => d.route.startsWith(`${route}/`) && !d.route.slice(route.length + 1).includes('/'))
+  .map(d => `- [${d.data.title || d.route.split('/').pop()}](${d.route}/)`)
+  .join('\n');
+for (const {route, data, content} of docs) {
+  emit(route, data, content.replace(/<DocCardList\s*\/>/g, () => childList(route)));
+  count++;
+}
 const posts = [];
 walk(path.join(ROOT, 'blog'), p => {
   if (!/\.mdx?$/.test(p)) return;
