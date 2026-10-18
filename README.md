@@ -31,4 +31,5 @@ Docusaurus 3 site for microcks.io, deployed on Netlify.
 1. Deploy preview OK; `npm run check:parity` passes.
 2. Verify `/helm/index.yaml`, `/operator/`, `/compose/`, `/schemas/`, `/go-client/`, `/testcontainers-go/`.
 3. Lower DNS TTL, switch `microcks.io` to Netlify, re-check the above and the sitemap.
-4. Submit the new sitemap; apply for Algolia DocSearch and swap the local search.
+4. Submit the new sitemap to Search Console.
+5. Confirm the custom domain does not send `X-Robots-Tag` (`curl -sI https://microcks.io/ | grep -i x-robots`).
