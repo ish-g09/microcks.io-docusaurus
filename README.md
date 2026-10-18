@@ -29,7 +29,7 @@ Docusaurus 3 site for microcks.io, deployed on Netlify.
 
 ## Cutover checklist (GitHub Pages → Netlify)
 1. Deploy preview OK; `npm run check:parity` passes.
-2. Verify `/helm/index.yaml`, `/operator/`, `/compose/`, `/schemas/`, `/go-client/`, `/testcontainers-go/`.
+2. Verify `/helm/index.yaml`, `/go-client/`, `/testcontainers-go/` and a file in each of `/operator/`, `/compose/`, `/schemas/` (the directories themselves 404, as on the old site).
 3. Lower DNS TTL, switch `microcks.io` to Netlify, re-check the above and the sitemap.
 4. Submit the new sitemap to Search Console.
 5. Confirm the custom domain does not send `X-Robots-Tag` (`curl -sI https://microcks.io/ | grep -i x-robots`).
