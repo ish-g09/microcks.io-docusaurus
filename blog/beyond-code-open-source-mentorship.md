@@ -6,6 +6,10 @@ description: Exploring the challenges of silent users in open source and how Mic
 image: /images/blog/beyond-code-open-source.jpg
 authors:
   - krishi-agrawal
+tags:
+  - open-source
+  - mentorship
+  - microcks
 ---
 
 Open source software proves that **collective contribution creates collective value**. However, as a contributor to [Microcks](https://microcks.io/), I have observed a concerning pattern that threatens the sustainability of the project and countless others in the open source ecosystem.
