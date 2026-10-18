@@ -37,6 +37,7 @@ function clean(body, route) {
     .replace(/<!--\s*truncate\s*-->/g, '')
     .replace(/<ApiSpec[^>]*url="([^"]+)"[^>]*\/>/g, (_, u) => `[API specification](${u})`)
     .replace(/<div class="video-embed"><iframe src="([^"]+)"[^>]*><\/iframe><\/div>/g, '[Video]($1)')
+    .replace(/!\[[^\]]*\]\(/g, '![](')
     .replace(/\]\(\/(?!\/)/g, `](${SITE}/`)
     .trim();
 }
@@ -67,8 +68,8 @@ walk(path.join(ROOT, 'docs'), p => {
 // <DocCardList /> renders the children of a category page: list them explicitly in the Markdown twin
 const childList = route => docs
   .filter(d => d.route.startsWith(`${route}/`) && !d.route.slice(route.length + 1).includes('/'))
-  .map(d => `- [${d.data.title || d.route.split('/').pop()}](${d.route}/)`)
-  .join('\n');
+  .map(d => `### [${d.data.title || d.route.split('/').pop()}](${d.route}/)${d.data.description ? `\n\n${d.data.description}` : ''}`)
+  .join('\n\n');
 for (const {route, data, content} of docs) {
   emit(route, data, content.replace(/<DocCardList\s*\/>/g, () => childList(route)));
   count++;

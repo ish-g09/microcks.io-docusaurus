@@ -771,3 +771,8 @@ main .theme-doc-markdown a[class*='cardContainer']:not(.button) {
   white-space: nowrap;
   border: 0;
 }
+
+/* Sidebar is after main in the DOM (see src/theme/DocRoot/Layout); keep it on the left */
+.theme-doc-sidebar-container {
+  order: -1;
+}
