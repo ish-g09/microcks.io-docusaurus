@@ -70,7 +70,7 @@ walk(path.join(ROOT, 'docs'), p => {
 const childList = route => docs
   .filter(d => d.route.startsWith(`${route}/`) && !d.route.slice(route.length + 1).includes('/'))
   .sort((a, b) => (a.data.sidebar_position ?? 1e9) - (b.data.sidebar_position ?? 1e9) || a.route.localeCompare(b.route))
-  .map(d => `### [${d.data.title || d.route.split('/').pop()}](${d.route}/)${d.data.description ? `\n\n${d.data.description}` : ''}`)
+  .map(d => `### [📄️${d.data.title || d.route.split('/').pop()}](${d.route}/)${d.data.description ? `\n\n${d.data.description}` : ''}`)
   .join('\n\n');
 for (const {route, data, content} of docs) {
   emit(route, data, content.replace(/<DocCardList\s*\/>/g, () => childList(route)));
