@@ -10,7 +10,7 @@
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "check:parity": "node scripts/check-url-parity.mjs",
-    "test": "node --test tests/"
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",
