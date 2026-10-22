@@ -24,3 +24,14 @@ test('stable distribution paths are shipped as static files', () => {
     assert.ok(fs.existsSync(path.join(ROOT, p)), p);
   }
 });
+
+test('Discord invite is only defined in static/_redirects', () => {
+  const offenders = [];
+  const walk = d => fs.readdirSync(d, {withFileTypes: true}).forEach(e => {
+    const p = path.join(d, e.name);
+    if (e.isDirectory()) return walk(p);
+    if (/\.(mdx?|js|mjs)$/.test(p) && /discord\.(gg|com\/invite)/.test(fs.readFileSync(p, 'utf8'))) offenders.push(path.relative(ROOT, p));
+  });
+  ['src', 'docs', 'blog'].forEach(d => walk(path.join(ROOT, d)));
+  assert.deepEqual(offenders, [], 'link to https://microcks.io/discord-invite instead');
+});

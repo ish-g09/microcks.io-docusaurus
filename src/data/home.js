@@ -95,9 +95,9 @@ export const community = {
   },
   blocks: [
     {
-      title: 'We are available on [Discord](https://discord.com/invite/JA4rbcGzk7)',
+      title: 'We are available on [Discord](https://microcks.io/discord-invite)',
       image: '/images/community/Discord.png',
-      content: "[Join us and connect](https://discord.com/invite/JA4rbcGzk7) with fellow enthusiasts.<br>Let's build an even **stronger community together**!",
+      content: "[Join us and connect](https://microcks.io/discord-invite) with fellow enthusiasts.<br>Let's build an even **stronger community together**!",
     },
     {
       title: 'Follow us on social',
@@ -133,7 +133,7 @@ export const community = {
 
 export const socials = [
   {name: 'GitHub', href: 'https://github.com/microcks', icon: 'github'},
-  {name: 'Discord', href: '/discord-invite/', icon: 'discord'},
+  {name: 'Discord', href: 'https://microcks.io/discord-invite', icon: 'discord'},
   {name: 'LinkedIn', href: 'https://www.linkedin.com/company/microcks/', icon: 'linkedin'},
   {name: 'Bluesky', href: 'https://bsky.app/profile/microcks.io', icon: 'bluesky'},
   {name: 'X', href: 'https://twitter.com/microcksio', icon: 'x'},
