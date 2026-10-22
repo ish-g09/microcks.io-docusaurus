@@ -124,14 +124,14 @@ with MicrocksContainer().with_main_artifacts(["my-api.yaml"]) as microcks:
 
 Despite being a young project, this module already covers a broad feature set — REST/SOAP/GraphQL/gRPC mocking, conformance testing, secrets, OAuth2-secured endpoints and a Microcks *ensemble* with a Postman runtime and an Async Minion for Kafka, MQTT, AMQP, AWS SQS/SNS and Google PubSub. See the [Testcontainers Modules reference](/documentation/references/testcontainers-modules/#community-modules) for the detailed feature coverage and the [microcks-testcontainers-python repository](https://github.com/Caesarsage/microcks-testcontainers-python) for full details, as well as a full [demo application using Flask](https://github.com/Caesarsage/microcks-testcontainers-python-demo-flask) 🐍
 
-This module is moving toward becoming an official one, and the best way to help is to **give it a try, ⭐ star the [repository](https://github.com/Caesarsage/microcks-testcontainers-python), open issues and contribute**! Feedback is highly appreciated — feel free to reach out on [Discord](https://discord.gg/JA4rbcGzk7) too. 🙌
+This module is moving toward becoming an official one, and the best way to help is to **give it a try, ⭐ star the [repository](https://github.com/Caesarsage/microcks-testcontainers-python), open issues and contribute**! Feedback is highly appreciated — feel free to reach out on [Discord](https://microcks.io/discord-invite) too. 🙌
 
 
 ## Wrap-up
 
 Testcontainers + Microcks is a powerful combo for simplifying the write-up of robust unit or integration tests where the fixtures can be directly deduced from specifications. And the best thing is that this tooling is totally independent of your technology stack! You can use them for NodeJS, Go, Java, Ruby development, or whatever!
 
-Check our [Testcontainers Modules reference](/documentation/references/testcontainers-modules) to see how the Microcks features are covered in your favourite language. We don't provide a built-in module for the stack you're using? Poke us on [Discord](https://discord.gg/JA4rbcGzk7), we'd really like your suggestions and help to get this rolling!
+Check our [Testcontainers Modules reference](/documentation/references/testcontainers-modules) to see how the Microcks features are covered in your favourite language. We don't provide a built-in module for the stack you're using? Poke us on [Discord](https://microcks.io/discord-invite), we'd really like your suggestions and help to get this rolling!
 
 If you want to learn more about the underlying thoughts and alternatives you may have if you're not running Testcontainers, here's a set of blog posts written during our explorations:
 * [Mocking and contract-testing in your Inner Loop with Microcks - Part 1: Easy environment setup](https://medium.com/@lbroudoux/mocking-and-contract-testing-in-your-inner-loop-with-microcks-part-1-easy-environment-setup-dcd0f4355231)
