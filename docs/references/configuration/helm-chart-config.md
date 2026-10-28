@@ -11,7 +11,7 @@ description: One easy way of installing Microcks is via a Helm Chart.
 One easy way of installing Microcks is via a [Helm Chart](https://helm.sh/). Kubernetes version 1.17 or greater is required. It is assumed that you have some kind of Kubernetes cluster up and running available. This can take several forms depending on your environment and needs:
 
 * Lightweight Minikube on your laptop, see [Minikube project page](https://github.com/kubernetes/minikube),
-* A Google Cloud Engine account in the cloud, see how to start a [Free trial](https://console.cloud.google.com/freetrial),
+* A Google Cloud Engine account in the cloud, see how to start a [Free trial](https://cloud.google.com/free),
 * Any other Kubernetes distribution provider.
 
 ## Helm 3 Chart
